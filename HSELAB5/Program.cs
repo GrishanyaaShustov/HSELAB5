@@ -196,7 +196,7 @@ class Program
                 newArray[i, j] = array[i, j];
             }
             // Добавляем пустой столбец с заданным значением (по умолчанию 0)
-            newArray[i, newColIndex] = 0; // Здесь можно также запросить ввод значений для нового столбца, если нужно
+            newArray[i, newColIndex] = 0;
             for (int j = newColIndex; j < array.GetLength(1); j++)
             {
                 newArray[i, j + 1] = array[i, j];
